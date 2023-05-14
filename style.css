@@ -13,11 +13,28 @@
     display:flex;
     background-color: beige;
     padding: 40px 20px 20px 20px;
-
-    
-
-    
 }
+
+.parent-box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.parent-box {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.parent-box {
+    display: flex;
+    flex-direction: row;
+}
+.parent-box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .parent-box > p {
     position:absolute;
     margin-top: -30px;
